@@ -1,0 +1,5 @@
+candidate_share=0.192 (expected 0.20 +/- 0.04)
+sticky_second_call=PASS (200/200 unchanged)
+sticky_after_redeploy=PASS (200/200 unchanged)
+monotonic_weight_increase=PASS (no v2 customer moved to v1)
+x_beta_override=PASS (50/50 routed to v2)

@@ -1,0 +1,4 @@
+mean_absolute_difference_minutes=9.484
+percentage_over_10_minutes=35.0
+prod_p95_ms=5.7
+candidate_p95_ms=5.8

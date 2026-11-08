@@ -1,0 +1,132 @@
+[
+  {
+    "concurrency": 1,
+    "requests": 89,
+    "rps": 22.2,
+    "p50_ms": 45.1,
+    "p95_ms": 46.9,
+    "p99_ms": 47.9,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 89
+    }
+  },
+  {
+    "concurrency": 2,
+    "requests": 179,
+    "rps": 44.8,
+    "p50_ms": 45.2,
+    "p95_ms": 46.8,
+    "p99_ms": 47.9,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 179
+    }
+  },
+  {
+    "concurrency": 4,
+    "requests": 348,
+    "rps": 87.0,
+    "p50_ms": 46.5,
+    "p95_ms": 49.1,
+    "p99_ms": 50.3,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 348
+    }
+  },
+  {
+    "concurrency": 8,
+    "requests": 704,
+    "rps": 176.0,
+    "p50_ms": 45.8,
+    "p95_ms": 49.6,
+    "p99_ms": 51.2,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 704
+    }
+  },
+  {
+    "concurrency": 16,
+    "requests": 1424,
+    "rps": 356.0,
+    "p50_ms": 45.0,
+    "p95_ms": 49.2,
+    "p99_ms": 51.6,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 1424
+    }
+  },
+  {
+    "concurrency": 24,
+    "requests": 2120,
+    "rps": 530.0,
+    "p50_ms": 45.0,
+    "p95_ms": 50.6,
+    "p99_ms": 54.2,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 2120
+    }
+  },
+  {
+    "concurrency": 32,
+    "requests": 2733,
+    "rps": 683.2,
+    "p50_ms": 45.6,
+    "p95_ms": 55.3,
+    "p99_ms": 70.0,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 2733
+    }
+  },
+  {
+    "concurrency": 40,
+    "requests": 3297,
+    "rps": 824.2,
+    "p50_ms": 46.9,
+    "p95_ms": 60.7,
+    "p99_ms": 99.9,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 3297
+    }
+  },
+  {
+    "concurrency": 48,
+    "requests": 3730,
+    "rps": 932.5,
+    "p50_ms": 50.0,
+    "p95_ms": 63.0,
+    "p99_ms": 92.5,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 3730
+    }
+  },
+  {
+    "concurrency": 64,
+    "requests": 4361,
+    "rps": 1090.2,
+    "p50_ms": 55.4,
+    "p95_ms": 84.8,
+    "p99_ms": 137.5,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 4361
+    }
+  }
+]

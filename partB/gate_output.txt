@@ -1,0 +1,29 @@
+Default thresholds
+{'candidate': {'mae': 6.104850000000001,
+               'mae_rain': 6.285311871227364,
+               'mae_rush': 8.579509632224168,
+               'p95_ms': 1.135060248270747},
+ 'criteria': {'latency': True,
+              'rain_slice': True,
+              'relative_mae_gain': True,
+              'rush_slice': True},
+ 'prod': {'mae': 11.9553,
+          'mae_rain': 11.622736418511066,
+          'mae_rush': 19.679859894921194,
+          'p95_ms': 1.0884676452405977},
+ 'promote': True}
+
+min_rel_gain=0.60
+{'candidate': {'mae': 6.104850000000001,
+               'mae_rain': 6.285311871227364,
+               'mae_rush': 8.579509632224168,
+               'p95_ms': 1.1178744451171951},
+ 'criteria': {'latency': True,
+              'rain_slice': True,
+              'relative_mae_gain': False,
+              'rush_slice': True},
+ 'prod': {'mae': 11.9553,
+          'mae_rain': 11.622736418511066,
+          'mae_rush': 19.679859894921194,
+          'p95_ms': 1.1619194981903984},
+ 'promote': False}
